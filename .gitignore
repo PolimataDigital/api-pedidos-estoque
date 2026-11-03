@@ -1,0 +1,17 @@
+# Dependências
+node_modules/
+
+# Credenciais e configurações locais
+.env
+.env.*
+!.env.example
+
+# Arquivos gerados
+dist/
+coverage/
+*.log
+
+# Backups
+*.dump
+*.backup
+backups/
