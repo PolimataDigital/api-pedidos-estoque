@@ -1,0 +1,30 @@
+{
+  "name": "api-pedidos-estoque",
+  "version": "1.0.0",
+  "description": "API REST desenvolvida com Node.js, Express, TypeScript e PostgreSQL, utilizando SQL manual por meio do driver `pg`, sem ORM.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PolimataDigital/api-pedidos-estoque.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/PolimataDigital/api-pedidos-estoque/issues"
+  },
+  "homepage": "https://github.com/PolimataDigital/api-pedidos-estoque#readme",
+  "dependencies": {
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^24.19.2",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
