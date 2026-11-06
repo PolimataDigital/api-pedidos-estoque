@@ -4,7 +4,7 @@
   "description": "API REST desenvolvida com Node.js, Express, TypeScript e PostgreSQL, utilizando SQL manual por meio do driver `pg`, sem ORM.",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx watch src/server.ts",
+    "dev": "node --env-file=.env --import tsx --watch src/server.ts",
     "typecheck": "tsc --noEmit",
     "build": "tsc",
     "start": "node dist/server.js"
@@ -22,11 +22,13 @@
   },
   "homepage": "https://github.com/PolimataDigital/api-pedidos-estoque#readme",
   "dependencies": {
-    "express": "^5.3.0"
+    "express": "^5.3.0",
+    "pg": "^8.23.1"
   },
   "devDependencies": {
     "@types/express": "^5.0.6",
     "@types/node": "^24.19.2",
+    "@types/pg": "^8.23.1",
     "tsx": "^4.23.15",
     "typescript": "^7.0.2"
   }
