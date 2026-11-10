@@ -32,7 +32,7 @@ O projeto tem como objetivo aplicar conceitos de engenharia de software, modelag
 
 ## Estado do desenvolvimento
 
-Projeto em fase inicial de configuração.
+GET /produtos/:id — consulta individual, parâmetros, validação, SQL parametrizado e erros HTTP
 
 As funcionalidades descritas ainda serão implementadas progressivamente.
 
